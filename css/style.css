@@ -1,0 +1,75 @@
+* {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 750px;
+}
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px;
+}
+.heading h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.birthday p {
+  float: right;
+}
+.tableBlock {
+  padding: 50px 0 30px 0;
+}
+.firstRow {
+  text-align: center;
+  align-items: center;
+}
+.firstLine {
+  border: 1px solid #222;
+  height: 70px;
+  align-items: center;
+}
+.secondLine {
+  border: 1px solid #222;
+  height: 50px;
+  align-items: center;
+}
+.midleText {
+  padding: 16px;
+}
+.tabl {
+  text-align: center;
+  padding: 0 15px;
+}
+.patient-table p{
+  font-size: 16px!important;
+}
+.info h5{
+  font-size: 16px;
+  padding: 25px 0;
+  font-weight: 600;
+}
+footer {
+  padding: 80px 0 0;
+}
+.lab {
+  text-align: center;
+  padding: 80px 0 0;
+}
+.recvisite p, .qr-text p {
+  font-size: 13px;
+  line-height: 8px;
+  font-weight: 500;
+}
+@media screen and (max-width:360px) {
+  .logo img{
+    width: 300px;
+  }
+  .lab {
+    padding: 25px 0;
+  }
+  .lab img {
+    width: 300px;
+  }
+}
